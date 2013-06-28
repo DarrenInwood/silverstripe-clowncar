@@ -18,9 +18,6 @@ It has not been extensively tested as yet, and should not be considered for prod
 ## Installation
 
 Download, place the folder in your project root and run dev/build?flush=1.
-To enable, add the following line to your _config.php:
-
-> ClownCarImage::enable();
 
 ## Quick Usage Overview
 
@@ -35,4 +32,3 @@ You can still use $Image to output a normal <img> tag.
 ## Documentation
 
 See https://github.com/DarrenInwood/silverstripe-clowncar/wiki formore in-depth documentation.
-
