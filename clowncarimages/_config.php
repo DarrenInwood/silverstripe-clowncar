@@ -1,3 +1,3 @@
 <?php
 
-// ClownCarImage::enable();
+Object::add_extension('Image', 'ClownCarImageExtension');
