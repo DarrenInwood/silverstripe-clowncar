@@ -1,0 +1,26 @@
+---
+Name: defaultbreakpoint
+---
+ClownCarImage:
+  BreakpointSets:
+    'Default':
+      Smartphone:
+        MediaQuery: only screen and (max-width: 480px)
+        Width: 480
+        Height: 0
+        AddRetinaRules: 1
+      LargeSmartphone:
+        MediaQuery: only screen and (min-width: 481px) and (max-width: 768px)
+        Width: 768
+        Height: 0
+        AddRetinaRules: 1
+      Tablet:
+        MediaQuery: only screen and (min-width: 769px) and (max-width: 1024px)
+        Width: 1024
+        Height: 0
+        AddRetinaRules: 1
+      Desktop:
+        MediaQuery: only screen and (min-width: 1025px)
+        Width: 1280
+        Height: 0
+        AddRetinaRules: 1
